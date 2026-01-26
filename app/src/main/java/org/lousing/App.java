@@ -3,13 +3,7 @@
  */
 package org.lousing;
 
-import org.lousing.foundation.EnhancedFor;
-import org.lousing.leetcode.ContainsDuplicate;
 import org.lousing.leetcode.ContainsDuplicateV2;
-import org.lousing.leetcode.TwoSum;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class App {
   public String getGreeting() {
