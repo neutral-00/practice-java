@@ -3,6 +3,11 @@
  */
 package org.lousing;
 
+import org.lousing.foundation.EnhancedFor;
+import org.lousing.leetcode.ContainsDuplicate;
+import org.lousing.leetcode.ContainsDuplicateV2;
+import org.lousing.leetcode.TwoSum;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,14 +17,6 @@ public class App {
   }
 
   public static void main(String[] args) {
-    System.out.println(new App().getGreeting());
-    System.out.println("Awesome 1");
-    List<String> fruitList = new ArrayList<>();
-    fruitList.add("apple");
-    fruitList.add("banana");
-
-    for (String fruit : fruitList) {
-     System.out.println(fruit);
-    }
+    ContainsDuplicateV2.showDemo();
   }
 }
