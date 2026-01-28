@@ -42,3 +42,38 @@ application {
     // Define the main class for the application.
     mainClass = 'org.lousing.App'
 }
+
+// Fixed and optimized Javadoc task
+javadoc {
+    source = sourceSets.main.allJava
+    classpath = sourceSets.main.compileClasspath
+
+    options {
+        encoding = 'UTF-8'
+        charSet = 'UTF-8'
+        author = true
+        version = true
+        addBooleanOption('html5', true)
+        // Updated to link specifically to JDK 21 docs
+        links 'https://docs.oracle.com/en/java/javase/21/docs/api/'
+    }
+
+    // Using layout.buildDirectory is the preferred modern way
+    destinationDir = layout.buildDirectory.dir("docs/javadoc").get().asFile
+}
+
+// Tip: Make Javadoc run automatically during 'build'
+tasks.named('build') {
+    dependsOn javadoc
+}
+
+task debugPaths {
+    // Capture the paths at configuration time
+    def pDir = projectDir
+    def bDir = buildDir
+
+    doLast {
+        println "Project Directory: $pDir"
+        println "Build Directory: $bDir"
+    }
+}
