@@ -3,7 +3,7 @@
  */
 package org.lousing;
 
-import org.lousing.leetcode.ContainsDuplicateV2;
+import org.lousing.andrii.collections.ArraysExample;
 
 public class App {
   public String getGreeting() {
@@ -11,6 +11,6 @@ public class App {
   }
 
   public static void main(String[] args) {
-    ContainsDuplicateV2.showDemo();
+    ArraysExample.showDemo();
   }
 }

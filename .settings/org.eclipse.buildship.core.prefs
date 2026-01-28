@@ -1,11 +1,11 @@
-arguments=--init-script /home/neutral00/.local/share/nvim/mason/packages/jdtls/config_linux/org.eclipse.osgi/58/0/.cp/gradle/init/init.gradle
+arguments=--init-script /home/neutral00/.cache/nvim/jdtls/practice-java/config/org.eclipse.osgi/58/0/.cp/gradle/init/init.gradle
 auto.sync=false
 build.scans.enabled=false
 connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
 connection.project.dir=
 eclipse.preferences.version=1
 gradle.user.home=
-java.home=/usr/lib/jvm/java-21-openjdk-amd64
+java.home=/home/neutral00/.sdkman/candidates/java/21.0.2-open
 jvm.arguments=
 offline.mode=false
 override.workspace.settings=true
