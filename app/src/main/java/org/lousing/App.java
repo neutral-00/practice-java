@@ -3,14 +3,11 @@
  */
 package org.lousing;
 
-import org.lousing.andrii.collections.ArraysExample;
+import org.lousing.andrii.primitives.BigDecimalExample;
 
 public class App {
-  public String getGreeting() {
-    return "Hello World!";
-  }
 
   public static void main(String[] args) {
-    ArraysExample.showDemo();
+    BigDecimalExample.showDemo();
   }
 }
