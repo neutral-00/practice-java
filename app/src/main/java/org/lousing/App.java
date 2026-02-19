@@ -3,11 +3,14 @@
  */
 package org.lousing;
 
-import org.lousing.andrii.primitives.BigDecimalExample;
+import org.lousing.andrii.section02.LoopExample;
+import org.lousing.andrii.section02.PyramidInConsole;
 
 public class App {
 
+  public static final String appName = "Practice Java";
+
   public static void main(String[] args) {
-    BigDecimalExample.showDemo();
+    PyramidInConsole.showDemo();
   }
 }

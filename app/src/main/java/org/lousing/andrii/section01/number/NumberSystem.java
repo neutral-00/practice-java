@@ -1,4 +1,4 @@
-package org.lousing.andrii.primitives;
+package org.lousing.andrii.section01.number;
 
 public class NumberSystem {
 
